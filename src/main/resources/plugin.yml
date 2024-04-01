@@ -1,0 +1,15 @@
+name: LifeStealDupe
+version: '${version}'
+main: org.toodles.lifestealdupe.LifeStealDupe
+api-version: '1.20'
+load: STARTUP
+authors: [Toodles]
+description: A dupe plugin for lifesteal servervs
+prefix: LifeStealDupe
+commands:
+  dupe:
+    description: Dupe any item in your inventory!
+    usage: /dupe [<level>]
+  blacklist:
+    description: Blacklist any item from the dupe command!
+    usage: /blacklist <add/remove/items> [<key>]
